@@ -3,9 +3,9 @@
   <entry>
     <title>Hexo</title>
     <url>/2022/04/02/2022-04/hexo/</url>
-    <content><![CDATA[<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p><a href='https://hexo.io/zh-cn/index.html'>Hexo官网</a></p>
-<p><a href='https://theme-next.js.org/'>NexT - Theme for Hexo</a></p>
-<h2 id="Hexo主要操作"><a href="#Hexo主要操作" class="headerlink" title="Hexo主要操作"></a>Hexo主要操作</h2><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><h3 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h3><p><a href='https://hexo.io/zh-cn/index.html'>Hexo官网</a></p>
+<p><a href="https://theme-next.js.org/docs/getting-started/">NexT - Documentation</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -17,7 +17,7 @@
 ]]></content>
       <tags>
         <tag>hexo</tag>
-        <tag>blog</tag>
+        <tag>blogL</tag>
       </tags>
   </entry>
   <entry>
