@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Git学习笔记</title>
-    <url>/2022/04/02/2022-04/git/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>git</tag>
-        <tag>study</tag>
-        <tag>notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2022/04/02/template/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Next</title>
     <url>/2022/04/02/Theme%20Settings%20%20NexT/</url>
     <content><![CDATA[<h1 id="Theme-Settings-NexT"><a href="#Theme-Settings-NexT" class="headerlink" title="Theme Settings | NexT"></a>Theme Settings | NexT</h1><blockquote>
@@ -86,12 +71,18 @@
 ]]></content>
   </entry>
   <entry>
-    <title>HTML学习笔记</title>
-    <url>/2022/04/02/2022-04/html/</url>
+    <title></title>
+    <url>/2022/04/02/template/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Git学习笔记</title>
+    <url>/2022/04/02/2022-04/git/</url>
     <content><![CDATA[]]></content>
       <tags>
+        <tag>git</tag>
         <tag>study</tag>
-        <tag>html</tag>
+        <tag>notes</tag>
       </tags>
   </entry>
   <entry>
@@ -112,6 +103,24 @@
       <tags>
         <tag>hexo</tag>
         <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Logseq</title>
+    <url>/2022/04/02/2022-04/logseq/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>logseq</tag>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HTML学习笔记</title>
+    <url>/2022/04/02/2022-04/html/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>study</tag>
+        <tag>html</tag>
       </tags>
   </entry>
   <entry>
@@ -145,42 +154,6 @@
       </tags>
   </entry>
   <entry>
-    <title>写作计划</title>
-    <url>/2022/04/01/2022-04/plans/</url>
-    <content><![CDATA[<h1 id="Done"><a href="#Done" class="headerlink" title="Done"></a>Done</h1><ol>
-<li>创建Github账号</li>
-<li>学习基础的HTML语法</li>
-<li>利用Github搭建个人博客</li>
-<li>测试个人博客的效率</li>
-</ol>
-<h1 id="To-do"><a href="#To-do" class="headerlink" title="To do"></a>To do</h1><ol>
-<li>制作自己的网址导航</li>
-<li>制作一个学术导航</li>
-<li>整理HTML学习笔记</li>
-<li>总结使用Github建站的优缺点</li>
-<li>分享Obsidian插件使用经验</li>
-<li>分享Chrome使用经验</li>
-<li>分享Zotero使用经验</li>
-<li>整理我的快捷键使用心得和列表</li>
-<li>更新效率软件推荐清单</li>
-<li>继续完善本站的代码，修复发现的Bug</li>
-<li>研究如何将Gitalk评论嵌入本站</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>plans</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Logseq</title>
-    <url>/2022/04/02/2022-04/logseq/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>markdown</tag>
-        <tag>logseq</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Zotero</title>
     <url>/2022/04/02/2022-04/zotero/</url>
     <content><![CDATA[]]></content>
@@ -207,6 +180,33 @@
       <tags>
         <tag>markdown</tag>
         <tag>typora</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写作计划</title>
+    <url>/2022/04/01/2022-04/plans/</url>
+    <content><![CDATA[<h1 id="Done"><a href="#Done" class="headerlink" title="Done"></a>Done</h1><ol>
+<li>创建Github账号</li>
+<li>学习基础的HTML语法</li>
+<li>利用Github搭建个人博客</li>
+<li>测试个人博客的效率</li>
+</ol>
+<h1 id="To-do"><a href="#To-do" class="headerlink" title="To do"></a>To do</h1><ol>
+<li>制作自己的网址导航</li>
+<li>制作一个学术导航</li>
+<li>整理HTML学习笔记</li>
+<li>总结使用Github建站的优缺点</li>
+<li>分享Obsidian插件使用经验</li>
+<li>分享Chrome使用经验</li>
+<li>分享Zotero使用经验</li>
+<li>整理我的快捷键使用心得和列表</li>
+<li>更新效率软件推荐清单</li>
+<li>继续完善本站的代码，修复发现的Bug</li>
+<li>研究如何将Gitalk评论嵌入本站</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>plans</tag>
       </tags>
   </entry>
 </search>
