@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta property="og:type" content="website">
@@ -142,6 +142,8 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
 
 
     <main class="main">
@@ -155,7 +157,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/02/2022-04/logseq/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/02/Theme%20Settings%20%20NexT/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -169,7 +171,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/04/02/2022-04/logseq/" class="post-title-link" itemprop="url">Logseq</a>
+            <a href="/2022/04/02/Theme%20Settings%20%20NexT/" class="post-title-link" itemprop="url">Next</a>
         </h2>
 
         <div class="post-meta">
@@ -180,7 +182,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-04-02 00:00:00 / 修改时间：17:25:07" itemprop="dateCreated datePublished" datetime="2022-04-02T00:00:00+08:00">2022-04-02</time>
+              <time title="创建时间：2022-04-02 00:00:00 / 修改时间：19:26:37" itemprop="dateCreated datePublished" datetime="2022-04-02T00:00:00+08:00">2022-04-02</time>
             </span>
 
           
@@ -194,65 +196,72 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          
-      
-    </div>
+          <h1 id="Theme-Settings-NexT"><a href="#Theme-Settings-NexT" class="headerlink" title="Theme Settings | NexT"></a>Theme Settings | NexT</h1><blockquote>
+<h2 id="Excerpt"><a href="#Excerpt" class="headerlink" title="Excerpt"></a>Excerpt</h2><p>One of the guiding principles of NexT is to hide complex details and give you a simple but flexible config, so you can use it easily.</p>
+</blockquote>
+<hr>
+<p>One of the guiding principles of NexT is to hide complex details and give you a simple but flexible config, so you can use it easily.</p>
+<p>The values given in the document are often typical allowable values rather than default values. They may be different from those in NexT config file.</p>
+<h3 id="NexT-Quick-Start"><a href="#NexT-Quick-Start" class="headerlink" title="NexT Quick Start"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#NexT-Quick-Start" title="NexT Quick Start"></a>NexT Quick Start</h3><h4 id="Cache-Support"><a href="#Cache-Support" class="headerlink" title="Cache Support"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Cache-Support" title="Cache Support"></a>Cache Support</h4><p>NexT v6+ allows to cache content generation. Set the value <code>enable</code> to <code>true</code> in <code>cache</code> section in NexT config file as following:</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cache:  enable: true</span><br></pre></td></tr></table></figure>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+<h4 id="Minify-Support"><a href="#Minify-Support" class="headerlink" title="Minify Support"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Minify-Support" title="Minify Support"></a>Minify Support</h4><p>NexT allows to minify Hexo generation. Set the value <code>minify</code> to <code>true</code> in NexT config file as following:</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">minify: true</span><br></pre></td></tr></table></figure>
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/02/2022-04/html/">
+<h4 id="Choosing-Scheme"><a href="#Choosing-Scheme" class="headerlink" title="Choosing Scheme"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Choosing-Scheme" title="Choosing Scheme"></a>Choosing Scheme</h4><p>Scheme is a feature supported by NexT, by using Scheme NexT gives you different views. And nearly all config can be used by those Schemes. Till now NexT supports 4 schemes, and they are:</p>
+<ul>
+<li><strong><code>Muse</code></strong> → Default Scheme, this is the initial version of NexT. Uses black-white tone and mainly looks cleanly.</li>
+<li><code>Mist</code> → A tighter version of Muse with a tidy single-column view.</li>
+<li><code>Pisces</code> → Double-column Scheme, fresh like your neighbor’s daughter.</li>
+<li><code>Gemini</code> → Looks like Pisces, but have distinct column blocks with shadow to appear more sensitive to view.</li>
+</ul>
+<p>You can change Scheme by editing NexT config file, searching <code>scheme</code> keyword. You’ll see 4 lines of scheme settings and can enable one of them by removing it’s <code>#</code> and added <code>#</code> to previous.</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="草木灰">
-      <meta itemprop="description" content="">
-    </span>
+<h4 id="Dark-Mode"><a href="#Dark-Mode" class="headerlink" title="Dark Mode"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Dark-Mode" title="Dark Mode"></a>Dark Mode</h4><p><img src="https://theme-next.js.org/images/next-schemes.png" alt="NexT Schemes"> <img src="https://theme-next.js.org/images/next-schemes-dark.png" alt="NexT Schemes"></p>
+<p>You can enable Dark Mode by setting <code>darkmode</code> to <code>true</code> in NexT config file.</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">darkmode: true</span><br></pre></td></tr></table></figure>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/04/02/2022-04/html/" class="post-title-link" itemprop="url">HTML学习笔记</a>
-        </h2>
+<p>The <code>prefers-color-scheme</code> CSS media feature is used to bring Dark Mode to all 4 schemes above, make sure your browser supports it.</p>
+<p>Theme NexT automatically shows Dark Mode if the OS prefered theme is dark. It’s supported by macOS Mojave, iOS 13 and Android 10 or later. Relevant docs:<br><a target="_blank" rel="noopener" href="https://support.apple.com/en-us/HT208976">How to use Dark Mode on your Mac</a><br><a target="_blank" rel="noopener" href="https://support.apple.com/en-us/HT210332">Use Dark Mode on your iPhone, iPad, or iPod touch</a><br><a target="_blank" rel="noopener" href="https://developer.android.com/guide/topics/ui/look-and-feel/darktheme">Dark theme | Android Developers</a></p>
+<h4 id="Configuring-Favicon"><a href="#Configuring-Favicon" class="headerlink" title="Configuring Favicon"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Configuring-Favicon" title="Configuring Favicon"></a>Configuring Favicon</h4><p>By default the Hexo site use NexT favicons in <code>hexo-site/themes/next/source/images/</code> directory with different size for different device. You can replace them with your own favicons.</p>
+<p>For example, you can put your favicons in <code>hexo-site/source/images/</code> directory. Then you need to rename them and change the settings in <code>favicon</code> section in NexT config file, otherwise icons from Next will rewrite your custom icons in Hexo.</p>
+<p>You can also put custom favicons into <code>hexo-site/source/</code> directory. In this way, you <strong>must remove</strong> <code>/images</code> prefix from paths.</p>
+<p>To generate custom favicons, you can visit <a target="_blank" rel="noopener" href="https://realfavicongenerator.net/">Favicon Generator</a>.</p>
+<p>Hexo config file</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">favicon:  small: /images/favicon-16x16-next.png  medium: /images/favicon-32x32-next.png  apple_touch_icon: /images/apple-touch-icon-next.png  safari_pinned_tab: /images/logo.svg  android_manifest: /images/manifest.json</span><br></pre></td></tr></table></figure>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
+<h4 id="Custom-Logo-Support"><a href="#Custom-Logo-Support" class="headerlink" title="Custom Logo Support"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Custom-Logo-Support" title="Custom Logo Support"></a>Custom Logo Support</h4><p>NexT supports the site logo personalization.</p>
+<p>You can enable it by adding images’s url to <code>custom_logo</code> in NexT config file.</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">custom_logo: /uploads/custom-logo.jpg</span><br></pre></td></tr></table></figure>
 
-              <time title="创建时间：2022-04-02 00:00:00 / 修改时间：17:33:15" itemprop="dateCreated datePublished" datetime="2022-04-02T00:00:00+08:00">2022-04-02</time>
-            </span>
+<p>Scheme Mist does not support custom logo setting.</p>
+<h4 id="Creative-Commons"><a href="#Creative-Commons" class="headerlink" title="Creative Commons"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Creative-Commons" title="Creative Commons"></a>Creative Commons</h4><p>NexT supports the display of <a target="_blank" rel="noopener" href="https://creativecommons.org/">Creative Commons 4.0 International License</a> in sidebar and post including <code>by</code>, <code>by-nc</code>, <code>by-nc-nd</code>, <code>by-nc-sa</code>, <code>by-nd</code>, <code>by-sa</code> and <code>cc-zero</code>. These licenses allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators.</p>
+<p>You can configure it by editing values in <code>creative_commons</code> section in NexT config file, for example:</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">creative_commons:    license: by-nc-sa    size: small  sidebar: true  post: true  language: deed.zh</span><br></pre></td></tr></table></figure>
 
-          
+<p>You can set a language value if you prefer a translated version of CC license, e.g. deed.zh<br>CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on <a target="_blank" rel="noopener" href="https://creativecommons.org/">https://creativecommons.org</a></p>
+<h4 id="Open-Graph"><a href="#Open-Graph" class="headerlink" title="Open Graph"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Open-Graph" title="Open Graph"></a>Open Graph</h4><p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open_graph:  enable: true    options:    type: blog</span><br></pre></td></tr></table></figure>
 
-        </div>
-      </header>
+<p>Menu settings items have format <code>Key: /link/ || icon</code> which contains 3 values:</p>
+<p>By default, all menu items are commented out to ensure that you can override them in the <a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/configuration.html">Alternate Theme Config</a>.<br>To customize menu items, edit the following content in NexT config file:</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">menu:  home: / || fa fa-home        archives: /archives/ || fa fa-archive      </span><br></pre></td></tr></table></figure>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+<p>Dynamic sub-menu within hierarchy structure is also supported. Add your sub-menu items in <code>menu</code> section in NexT config file as following:</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">menu:  home: / || fa fa-home  archives: /archives/ || fa fa-archive  Docs:    default: /docs/ || fa fa-book    Getting Started:      default: /getting-started/ || fa fa-flag      Installation: /installation.html || fa fa-download      Configuration: /configuration.html || fa fa-wrench    Third Party Services:      default: /third-party-services/ || fa fa-puzzle-piece      Math Equations: /math-equations.html || fa fa-square-root-alt      Comment Systems: /comments.html || fa fa-comment-alt</span><br></pre></td></tr></table></figure>
 
-      
-          
+<p>A <code>default</code> page is required for each sub-menu item.</p>
+<p>By default NexT shows the icons of menu items without badges.</p>
+
       
     </div>
 
@@ -297,6 +306,64 @@
               
 
               <time title="创建时间：2022-04-02 00:00:00 / 修改时间：17:33:06" itemprop="dateCreated datePublished" datetime="2022-04-02T00:00:00+08:00">2022-04-02</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/02/2022-04/logseq/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="草木灰">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/04/02/2022-04/logseq/" class="post-title-link" itemprop="url">Logseq</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-04-02 00:00:00 / 修改时间：17:25:07" itemprop="dateCreated datePublished" datetime="2022-04-02T00:00:00+08:00">2022-04-02</time>
             </span>
 
           
@@ -398,6 +465,64 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/02/2022-04/html/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="草木灰">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/04/02/2022-04/html/" class="post-title-link" itemprop="url">HTML学习笔记</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-04-02 00:00:00 / 修改时间：17:33:15" itemprop="dateCreated datePublished" datetime="2022-04-02T00:00:00+08:00">2022-04-02</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/02/2022-04/markdown/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -438,77 +563,6 @@
 
       
           
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/02/2022-04/obsidian/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="草木灰">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/04/02/2022-04/obsidian/" class="post-title-link" itemprop="url">Obsidian</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2022-04-02 00:00:00 / 修改时间：17:25:10" itemprop="dateCreated datePublished" datetime="2022-04-02T00:00:00+08:00">2022-04-02</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="Related-Links"><a href="#Related-Links" class="headerlink" title="Related Links"></a>Related Links</h1><ol>
-<li><a target="_blank" rel="noopener" href="https://obsidian.md/">Obsidian官网</a></li>
-<li><a target="_blank" rel="noopener" href="https://obsidian.md/plugins">Obsidian插件</a></li>
-<li><a target="_blank" rel="noopener" href="https://obsidian.md/community">Obsidian社区</a></li>
-<li><a target="_blank" rel="noopener" href="https://forum-zh.obsidian.md/top">Obsidian中文论坛</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/obsidianmd/obsidian-releases">Obsidian Releases - GitHub </a></li>
-</ol>
-<h1 id="Plugin-Recommendations"><a href="#Plugin-Recommendations" class="headerlink" title="Plugin Recommendations"></a>Plugin Recommendations</h1><ol>
-<li>Memos</li>
-<li>Calendar</li>
-<li>Recent Files</li>
-<li>Better Word Count</li>
-</ol>
-
       
     </div>
 
@@ -655,7 +709,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/02/Theme%20Settings%20%20NexT/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/02/2022-04/obsidian/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -669,7 +723,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/04/02/Theme%20Settings%20%20NexT/" class="post-title-link" itemprop="url">Next</a>
+            <a href="/2022/04/02/2022-04/obsidian/" class="post-title-link" itemprop="url">Obsidian</a>
         </h2>
 
         <div class="post-meta">
@@ -680,7 +734,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-04-02 00:00:00 / 修改时间：19:26:37" itemprop="dateCreated datePublished" datetime="2022-04-02T00:00:00+08:00">2022-04-02</time>
+              <time title="创建时间：2022-04-02 00:00:00 / 修改时间：17:25:10" itemprop="dateCreated datePublished" datetime="2022-04-02T00:00:00+08:00">2022-04-02</time>
             </span>
 
           
@@ -694,71 +748,19 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Theme-Settings-NexT"><a href="#Theme-Settings-NexT" class="headerlink" title="Theme Settings | NexT"></a>Theme Settings | NexT</h1><blockquote>
-<h2 id="Excerpt"><a href="#Excerpt" class="headerlink" title="Excerpt"></a>Excerpt</h2><p>One of the guiding principles of NexT is to hide complex details and give you a simple but flexible config, so you can use it easily.</p>
-</blockquote>
-<hr>
-<p>One of the guiding principles of NexT is to hide complex details and give you a simple but flexible config, so you can use it easily.</p>
-<p>The values given in the document are often typical allowable values rather than default values. They may be different from those in NexT config file.</p>
-<h3 id="NexT-Quick-Start"><a href="#NexT-Quick-Start" class="headerlink" title="NexT Quick Start"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#NexT-Quick-Start" title="NexT Quick Start"></a>NexT Quick Start</h3><h4 id="Cache-Support"><a href="#Cache-Support" class="headerlink" title="Cache Support"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Cache-Support" title="Cache Support"></a>Cache Support</h4><p>NexT v6+ allows to cache content generation. Set the value <code>enable</code> to <code>true</code> in <code>cache</code> section in NexT config file as following:</p>
-<p>NexT config file</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cache:  enable: true</span><br></pre></td></tr></table></figure>
-
-<h4 id="Minify-Support"><a href="#Minify-Support" class="headerlink" title="Minify Support"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Minify-Support" title="Minify Support"></a>Minify Support</h4><p>NexT allows to minify Hexo generation. Set the value <code>minify</code> to <code>true</code> in NexT config file as following:</p>
-<p>NexT config file</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">minify: true</span><br></pre></td></tr></table></figure>
-
-<h4 id="Choosing-Scheme"><a href="#Choosing-Scheme" class="headerlink" title="Choosing Scheme"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Choosing-Scheme" title="Choosing Scheme"></a>Choosing Scheme</h4><p>Scheme is a feature supported by NexT, by using Scheme NexT gives you different views. And nearly all config can be used by those Schemes. Till now NexT supports 4 schemes, and they are:</p>
-<ul>
-<li><strong><code>Muse</code></strong> → Default Scheme, this is the initial version of NexT. Uses black-white tone and mainly looks cleanly.</li>
-<li><code>Mist</code> → A tighter version of Muse with a tidy single-column view.</li>
-<li><code>Pisces</code> → Double-column Scheme, fresh like your neighbor’s daughter.</li>
-<li><code>Gemini</code> → Looks like Pisces, but have distinct column blocks with shadow to appear more sensitive to view.</li>
-</ul>
-<p>You can change Scheme by editing NexT config file, searching <code>scheme</code> keyword. You’ll see 4 lines of scheme settings and can enable one of them by removing it’s <code>#</code> and added <code>#</code> to previous.</p>
-<p>NexT config file</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
-
-<h4 id="Dark-Mode"><a href="#Dark-Mode" class="headerlink" title="Dark Mode"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Dark-Mode" title="Dark Mode"></a>Dark Mode</h4><p><img src="https://theme-next.js.org/images/next-schemes.png" alt="NexT Schemes"> <img src="https://theme-next.js.org/images/next-schemes-dark.png" alt="NexT Schemes"></p>
-<p>You can enable Dark Mode by setting <code>darkmode</code> to <code>true</code> in NexT config file.</p>
-<p>NexT config file</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">darkmode: true</span><br></pre></td></tr></table></figure>
-
-<p>The <code>prefers-color-scheme</code> CSS media feature is used to bring Dark Mode to all 4 schemes above, make sure your browser supports it.</p>
-<p>Theme NexT automatically shows Dark Mode if the OS prefered theme is dark. It’s supported by macOS Mojave, iOS 13 and Android 10 or later. Relevant docs:<br><a target="_blank" rel="noopener" href="https://support.apple.com/en-us/HT208976">How to use Dark Mode on your Mac</a><br><a target="_blank" rel="noopener" href="https://support.apple.com/en-us/HT210332">Use Dark Mode on your iPhone, iPad, or iPod touch</a><br><a target="_blank" rel="noopener" href="https://developer.android.com/guide/topics/ui/look-and-feel/darktheme">Dark theme | Android Developers</a></p>
-<h4 id="Configuring-Favicon"><a href="#Configuring-Favicon" class="headerlink" title="Configuring Favicon"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Configuring-Favicon" title="Configuring Favicon"></a>Configuring Favicon</h4><p>By default the Hexo site use NexT favicons in <code>hexo-site/themes/next/source/images/</code> directory with different size for different device. You can replace them with your own favicons.</p>
-<p>For example, you can put your favicons in <code>hexo-site/source/images/</code> directory. Then you need to rename them and change the settings in <code>favicon</code> section in NexT config file, otherwise icons from Next will rewrite your custom icons in Hexo.</p>
-<p>You can also put custom favicons into <code>hexo-site/source/</code> directory. In this way, you <strong>must remove</strong> <code>/images</code> prefix from paths.</p>
-<p>To generate custom favicons, you can visit <a target="_blank" rel="noopener" href="https://realfavicongenerator.net/">Favicon Generator</a>.</p>
-<p>Hexo config file</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">favicon:  small: /images/favicon-16x16-next.png  medium: /images/favicon-32x32-next.png  apple_touch_icon: /images/apple-touch-icon-next.png  safari_pinned_tab: /images/logo.svg  android_manifest: /images/manifest.json</span><br></pre></td></tr></table></figure>
-
-<h4 id="Custom-Logo-Support"><a href="#Custom-Logo-Support" class="headerlink" title="Custom Logo Support"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Custom-Logo-Support" title="Custom Logo Support"></a>Custom Logo Support</h4><p>NexT supports the site logo personalization.</p>
-<p>You can enable it by adding images’s url to <code>custom_logo</code> in NexT config file.</p>
-<p>NexT config file</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">custom_logo: /uploads/custom-logo.jpg</span><br></pre></td></tr></table></figure>
-
-<p>Scheme Mist does not support custom logo setting.</p>
-<h4 id="Creative-Commons"><a href="#Creative-Commons" class="headerlink" title="Creative Commons"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Creative-Commons" title="Creative Commons"></a>Creative Commons</h4><p>NexT supports the display of <a target="_blank" rel="noopener" href="https://creativecommons.org/">Creative Commons 4.0 International License</a> in sidebar and post including <code>by</code>, <code>by-nc</code>, <code>by-nc-nd</code>, <code>by-nc-sa</code>, <code>by-nd</code>, <code>by-sa</code> and <code>cc-zero</code>. These licenses allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators.</p>
-<p>You can configure it by editing values in <code>creative_commons</code> section in NexT config file, for example:</p>
-<p>NexT config file</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">creative_commons:    license: by-nc-sa    size: small  sidebar: true  post: true  language: deed.zh</span><br></pre></td></tr></table></figure>
-
-<p>You can set a language value if you prefer a translated version of CC license, e.g. deed.zh<br>CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on <a target="_blank" rel="noopener" href="https://creativecommons.org/">https://creativecommons.org</a></p>
-<h4 id="Open-Graph"><a href="#Open-Graph" class="headerlink" title="Open Graph"></a><a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/theme-settings/#Open-Graph" title="Open Graph"></a>Open Graph</h4><p>NexT config file</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open_graph:  enable: true    options:    type: blog</span><br></pre></td></tr></table></figure>
-
-<p>Menu settings items have format <code>Key: /link/ || icon</code> which contains 3 values:</p>
-<p>By default, all menu items are commented out to ensure that you can override them in the <a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/configuration.html">Alternate Theme Config</a>.<br>To customize menu items, edit the following content in NexT config file:</p>
-<p>NexT config file</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">menu:  home: / || fa fa-home        archives: /archives/ || fa fa-archive      </span><br></pre></td></tr></table></figure>
-
-<p>Dynamic sub-menu within hierarchy structure is also supported. Add your sub-menu items in <code>menu</code> section in NexT config file as following:</p>
-<p>NexT config file</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">menu:  home: / || fa fa-home  archives: /archives/ || fa fa-archive  Docs:    default: /docs/ || fa fa-book    Getting Started:      default: /getting-started/ || fa fa-flag      Installation: /installation.html || fa fa-download      Configuration: /configuration.html || fa fa-wrench    Third Party Services:      default: /third-party-services/ || fa fa-puzzle-piece      Math Equations: /math-equations.html || fa fa-square-root-alt      Comment Systems: /comments.html || fa fa-comment-alt</span><br></pre></td></tr></table></figure>
-
-<p>A <code>default</code> page is required for each sub-menu item.</p>
-<p>By default NexT shows the icons of menu items without badges.</p>
+          <h1 id="Related-Links"><a href="#Related-Links" class="headerlink" title="Related Links"></a>Related Links</h1><ol>
+<li><a target="_blank" rel="noopener" href="https://obsidian.md/">Obsidian官网</a></li>
+<li><a target="_blank" rel="noopener" href="https://obsidian.md/plugins">Obsidian插件</a></li>
+<li><a target="_blank" rel="noopener" href="https://obsidian.md/community">Obsidian社区</a></li>
+<li><a target="_blank" rel="noopener" href="https://forum-zh.obsidian.md/top">Obsidian中文论坛</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/obsidianmd/obsidian-releases">Obsidian Releases - GitHub </a></li>
+</ol>
+<h1 id="Plugin-Recommendations"><a href="#Plugin-Recommendations" class="headerlink" title="Plugin Recommendations"></a>Plugin Recommendations</h1><ol>
+<li>Memos</li>
+<li>Calendar</li>
+<li>Recent Files</li>
+<li>Better Word Count</li>
+</ol>
 
       
     </div>
@@ -989,6 +991,8 @@
 
 
 <script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
 
 
 
