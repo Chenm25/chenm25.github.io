@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo</title>
+    <url>/2022/04/02/2022-04/hexo/</url>
+    <content><![CDATA[<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p><a href='https://hexo.io/zh-cn/index.html'>Hexo官网</a></p>
+<p><a href='https://theme-next.js.org/'>NexT - Theme for Hexo</a></p>
+<h2 id="Hexo主要操作"><a href="#Hexo主要操作" class="headerlink" title="Hexo主要操作"></a>Hexo主要操作</h2><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title></title>
     <url>/2022/04/02/template/</url>
     <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Git学习笔记</title>
-    <url>/2022/04/02/2022-04/git/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>git</tag>
-        <tag>study</tag>
-        <tag>notes</tag>
-      </tags>
   </entry>
   <entry>
     <title>Next</title>
@@ -86,23 +96,39 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Hexo</title>
-    <url>/2022/04/02/2022-04/hexo/</url>
-    <content><![CDATA[<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p><a href='https://hexo.io/zh-cn/index.html'>Hexo官网</a></p>
-<p><a href='https://theme-next.js.org/'>NexT - Theme for Hexo</a></p>
-<h2 id="Hexo主要操作"><a href="#Hexo主要操作" class="headerlink" title="Hexo主要操作"></a>Hexo主要操作</h2><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+    <title>Git学习笔记</title>
+    <url>/2022/04/02/2022-04/git/</url>
+    <content><![CDATA[]]></content>
       <tags>
-        <tag>hexo</tag>
-        <tag>blog</tag>
+        <tag>git</tag>
+        <tag>study</tag>
+        <tag>notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown</title>
+    <url>/2022/04/02/2022-04/markdown/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Logseq</title>
+    <url>/2022/04/02/2022-04/logseq/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>logseq</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HTML学习笔记</title>
+    <url>/2022/04/02/2022-04/html/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>study</tag>
+        <tag>html</tag>
       </tags>
   </entry>
   <entry>
@@ -123,26 +149,8 @@
 </ol>
 ]]></content>
       <tags>
+        <tag>markdown</tag>
         <tag>obsidian</tag>
-        <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTML学习笔记</title>
-    <url>/2022/04/02/2022-04/html/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>study</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Logseq</title>
-    <url>/2022/04/02/2022-04/logseq/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>markdown</tag>
-        <tag>logseq</tag>
       </tags>
   </entry>
   <entry>
@@ -170,14 +178,6 @@
 ]]></content>
       <tags>
         <tag>plans</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown</title>
-    <url>/2022/04/02/2022-04/markdown/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>markdown</tag>
       </tags>
   </entry>
   <entry>
