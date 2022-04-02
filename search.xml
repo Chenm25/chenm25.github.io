@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Git学习笔记</title>
+    <url>/2022/04/02/2022-04/git/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>git</tag>
+        <tag>study</tag>
+        <tag>notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HTML学习笔记</title>
+    <url>/2022/04/02/2022-04/html/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>study</tag>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo</title>
+    <url>/2022/04/02/2022-04/hexo/</url>
+    <content><![CDATA[<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p><a href='https://hexo.io/zh-cn/index.html'>Hexo官网</a></p>
+<p><a href='https://theme-next.js.org/'>NexT - Theme for Hexo</a></p>
+<h2 id="Hexo主要操作"><a href="#Hexo主要操作" class="headerlink" title="Hexo主要操作"></a>Hexo主要操作</h2><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Next</title>
+    <url>/2022/04/02/Theme%20Settings%20%20NexT/</url>
+    <content><![CDATA[<h1 id="Theme-Settings-NexT"><a href="#Theme-Settings-NexT" class="headerlink" title="Theme Settings | NexT"></a>Theme Settings | NexT</h1><blockquote>
+<h2 id="Excerpt"><a href="#Excerpt" class="headerlink" title="Excerpt"></a>Excerpt</h2><p>One of the guiding principles of NexT is to hide complex details and give you a simple but flexible config, so you can use it easily.</p>
+</blockquote>
+<hr>
+<p>One of the guiding principles of NexT is to hide complex details and give you a simple but flexible config, so you can use it easily.</p>
+<p>The values given in the document are often typical allowable values rather than default values. They may be different from those in NexT config file.</p>
+<h3 id="NexT-Quick-Start"><a href="#NexT-Quick-Start" class="headerlink" title="NexT Quick Start"></a><a href="https://theme-next.js.org/docs/theme-settings/#NexT-Quick-Start" title="NexT Quick Start"></a>NexT Quick Start</h3><h4 id="Cache-Support"><a href="#Cache-Support" class="headerlink" title="Cache Support"></a><a href="https://theme-next.js.org/docs/theme-settings/#Cache-Support" title="Cache Support"></a>Cache Support</h4><p>NexT v6+ allows to cache content generation. Set the value <code>enable</code> to <code>true</code> in <code>cache</code> section in NexT config file as following:</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cache:  enable: true</span><br></pre></td></tr></table></figure>
+
+<h4 id="Minify-Support"><a href="#Minify-Support" class="headerlink" title="Minify Support"></a><a href="https://theme-next.js.org/docs/theme-settings/#Minify-Support" title="Minify Support"></a>Minify Support</h4><p>NexT allows to minify Hexo generation. Set the value <code>minify</code> to <code>true</code> in NexT config file as following:</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">minify: true</span><br></pre></td></tr></table></figure>
+
+<h4 id="Choosing-Scheme"><a href="#Choosing-Scheme" class="headerlink" title="Choosing Scheme"></a><a href="https://theme-next.js.org/docs/theme-settings/#Choosing-Scheme" title="Choosing Scheme"></a>Choosing Scheme</h4><p>Scheme is a feature supported by NexT, by using Scheme NexT gives you different views. And nearly all config can be used by those Schemes. Till now NexT supports 4 schemes, and they are:</p>
+<ul>
+<li><strong><code>Muse</code></strong> → Default Scheme, this is the initial version of NexT. Uses black-white tone and mainly looks cleanly.</li>
+<li><code>Mist</code> → A tighter version of Muse with a tidy single-column view.</li>
+<li><code>Pisces</code> → Double-column Scheme, fresh like your neighbor’s daughter.</li>
+<li><code>Gemini</code> → Looks like Pisces, but have distinct column blocks with shadow to appear more sensitive to view.</li>
+</ul>
+<p>You can change Scheme by editing NexT config file, searching <code>scheme</code> keyword. You’ll see 4 lines of scheme settings and can enable one of them by removing it’s <code>#</code> and added <code>#</code> to previous.</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
+
+<h4 id="Dark-Mode"><a href="#Dark-Mode" class="headerlink" title="Dark Mode"></a><a href="https://theme-next.js.org/docs/theme-settings/#Dark-Mode" title="Dark Mode"></a>Dark Mode</h4><p><img src="https://theme-next.js.org/images/next-schemes.png" alt="NexT Schemes"> <img src="https://theme-next.js.org/images/next-schemes-dark.png" alt="NexT Schemes"></p>
+<p>You can enable Dark Mode by setting <code>darkmode</code> to <code>true</code> in NexT config file.</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">darkmode: true</span><br></pre></td></tr></table></figure>
+
+<p>The <code>prefers-color-scheme</code> CSS media feature is used to bring Dark Mode to all 4 schemes above, make sure your browser supports it.</p>
+<p>Theme NexT automatically shows Dark Mode if the OS prefered theme is dark. It’s supported by macOS Mojave, iOS 13 and Android 10 or later. Relevant docs:<br><a href="https://support.apple.com/en-us/HT208976">How to use Dark Mode on your Mac</a><br><a href="https://support.apple.com/en-us/HT210332">Use Dark Mode on your iPhone, iPad, or iPod touch</a><br><a href="https://developer.android.com/guide/topics/ui/look-and-feel/darktheme">Dark theme | Android Developers</a></p>
+<h4 id="Configuring-Favicon"><a href="#Configuring-Favicon" class="headerlink" title="Configuring Favicon"></a><a href="https://theme-next.js.org/docs/theme-settings/#Configuring-Favicon" title="Configuring Favicon"></a>Configuring Favicon</h4><p>By default the Hexo site use NexT favicons in <code>hexo-site/themes/next/source/images/</code> directory with different size for different device. You can replace them with your own favicons.</p>
+<p>For example, you can put your favicons in <code>hexo-site/source/images/</code> directory. Then you need to rename them and change the settings in <code>favicon</code> section in NexT config file, otherwise icons from Next will rewrite your custom icons in Hexo.</p>
+<p>You can also put custom favicons into <code>hexo-site/source/</code> directory. In this way, you <strong>must remove</strong> <code>/images</code> prefix from paths.</p>
+<p>To generate custom favicons, you can visit <a href="https://realfavicongenerator.net/">Favicon Generator</a>.</p>
+<p>Hexo config file</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">favicon:  small: /images/favicon-16x16-next.png  medium: /images/favicon-32x32-next.png  apple_touch_icon: /images/apple-touch-icon-next.png  safari_pinned_tab: /images/logo.svg  android_manifest: /images/manifest.json</span><br></pre></td></tr></table></figure>
+
+<h4 id="Custom-Logo-Support"><a href="#Custom-Logo-Support" class="headerlink" title="Custom Logo Support"></a><a href="https://theme-next.js.org/docs/theme-settings/#Custom-Logo-Support" title="Custom Logo Support"></a>Custom Logo Support</h4><p>NexT supports the site logo personalization.</p>
+<p>You can enable it by adding images’s url to <code>custom_logo</code> in NexT config file.</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">custom_logo: /uploads/custom-logo.jpg</span><br></pre></td></tr></table></figure>
+
+<p>Scheme Mist does not support custom logo setting.</p>
+<h4 id="Creative-Commons"><a href="#Creative-Commons" class="headerlink" title="Creative Commons"></a><a href="https://theme-next.js.org/docs/theme-settings/#Creative-Commons" title="Creative Commons"></a>Creative Commons</h4><p>NexT supports the display of <a href="https://creativecommons.org/">Creative Commons 4.0 International License</a> in sidebar and post including <code>by</code>, <code>by-nc</code>, <code>by-nc-nd</code>, <code>by-nc-sa</code>, <code>by-nd</code>, <code>by-sa</code> and <code>cc-zero</code>. These licenses allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators.</p>
+<p>You can configure it by editing values in <code>creative_commons</code> section in NexT config file, for example:</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">creative_commons:    license: by-nc-sa    size: small  sidebar: true  post: true  language: deed.zh</span><br></pre></td></tr></table></figure>
+
+<p>You can set a language value if you prefer a translated version of CC license, e.g. deed.zh<br>CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on <a href="https://creativecommons.org/">https://creativecommons.org</a></p>
+<h4 id="Open-Graph"><a href="#Open-Graph" class="headerlink" title="Open Graph"></a><a href="https://theme-next.js.org/docs/theme-settings/#Open-Graph" title="Open Graph"></a>Open Graph</h4><p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">open_graph:  enable: true    options:    type: blog</span><br></pre></td></tr></table></figure>
+
+<p>Menu settings items have format <code>Key: /link/ || icon</code> which contains 3 values:</p>
+<p>By default, all menu items are commented out to ensure that you can override them in the <a href="https://theme-next.js.org/docs/getting-started/configuration.html">Alternate Theme Config</a>.<br>To customize menu items, edit the following content in NexT config file:</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu:  home: / || fa fa-home        archives: /archives/ || fa fa-archive      </span><br></pre></td></tr></table></figure>
+
+<p>Dynamic sub-menu within hierarchy structure is also supported. Add your sub-menu items in <code>menu</code> section in NexT config file as following:</p>
+<p>NexT config file</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu:  home: / || fa fa-home  archives: /archives/ || fa fa-archive  Docs:    default: /docs/ || fa fa-book    Getting Started:      default: /getting-started/ || fa fa-flag      Installation: /installation.html || fa fa-download      Configuration: /configuration.html || fa fa-wrench    Third Party Services:      default: /third-party-services/ || fa fa-puzzle-piece      Math Equations: /math-equations.html || fa fa-square-root-alt      Comment Systems: /comments.html || fa fa-comment-alt</span><br></pre></td></tr></table></figure>
+
+<p>A <code>default</code> page is required for each sub-menu item.</p>
+<p>By default NexT shows the icons of menu items without badges.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Obsidian</title>
+    <url>/2022/04/02/2022-04/obsidian/</url>
+    <content><![CDATA[<h1 id="Related-Links"><a href="#Related-Links" class="headerlink" title="Related Links"></a>Related Links</h1><ol>
+<li><a href="https://obsidian.md/">Obsidian官网</a></li>
+<li><a href="https://obsidian.md/plugins">Obsidian插件</a></li>
+<li><a href="https://obsidian.md/community">Obsidian社区</a></li>
+<li><a href="https://forum-zh.obsidian.md/top">Obsidian中文论坛</a></li>
+<li><a href="https://github.com/obsidianmd/obsidian-releases">Obsidian Releases - GitHub </a></li>
+</ol>
+<h1 id="Plugin-Recommendations"><a href="#Plugin-Recommendations" class="headerlink" title="Plugin Recommendations"></a>Plugin Recommendations</h1><ol>
+<li>Memos</li>
+<li>Calendar</li>
+<li>Recent Files</li>
+<li>Better Word Count</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>obsidian</tag>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown</title>
+    <url>/2022/04/02/2022-04/markdown/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Logseq</title>
+    <url>/2022/04/02/2022-04/logseq/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>logseq</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写作计划</title>
+    <url>/2022/04/01/2022-04/plans/</url>
+    <content><![CDATA[<h1 id="Done"><a href="#Done" class="headerlink" title="Done"></a>Done</h1><ol>
+<li>创建Github账号</li>
+<li>学习基础的HTML语法</li>
+<li>利用Github搭建个人博客</li>
+<li>测试个人博客的效率</li>
+</ol>
+<h1 id="To-do"><a href="#To-do" class="headerlink" title="To do"></a>To do</h1><ol>
+<li>制作自己的网址导航</li>
+<li>制作一个学术导航</li>
+<li>整理HTML学习笔记</li>
+<li>总结使用Github建站的优缺点</li>
+<li>分享Obsidian插件使用经验</li>
+<li>分享Chrome使用经验</li>
+<li>分享Zotero使用经验</li>
+<li>整理我的快捷键使用心得和列表</li>
+<li>更新效率软件推荐清单</li>
+<li>继续完善本站的代码，修复发现的Bug</li>
+<li>研究如何将Gitalk评论嵌入本站</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>plans</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Zotero</title>
+    <url>/2022/04/02/2022-04/zotero/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>zotero</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Typora</title>
+    <url>/2022/04/02/2022-04/typora/</url>
+    <content><![CDATA[<h1 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h1><h2 id="Related-Links"><a href="#Related-Links" class="headerlink" title="Related Links"></a>Related Links</h2><ol>
+<li><a href="https://typora.io/">Typora英文官网</a></li>
+<li><a href="https://typoraio.cn/">Typora中文官网</a></li>
+<li><a href="https://theme.typora.io/">Typora Themes</a></li>
+<li><a href="https://github.com/Y1chenYao/typora-mint-theme">Typora-Mint-Theme</a></li>
+<li><a href="https://support.typora.io/">Typora Support</a></li>
+<li><a href="https://support.typora.io/Shortcut-Keys/#autocomplete">Typora快捷键清单</a></li>
+</ol>
+<h2 id="Suggestions"><a href="#Suggestions" class="headerlink" title="Suggestions"></a>Suggestions</h2><h3 id="Typora-主题推荐"><a href="#Typora-主题推荐" class="headerlink" title="Typora 主题推荐"></a>Typora 主题推荐</h3><ol>
+<li><a href="https://github.com/Y1chenYao/typora-mint-theme">Typora-Mint-Theme</a></li>
+<li>Github</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>typora</tag>
+      </tags>
+  </entry>
+</search>
